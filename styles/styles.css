@@ -163,7 +163,7 @@ justify-content: space-around;
     width: 100%;
 }
 .funny{
-    color: blueviolet;
+    color: #F948B2;
 }
 .card-des{
     color: #534C64;
@@ -294,4 +294,14 @@ justify-content: center;
     justify-content: center;
     margin-top: 15px;
     font-size: x-small;
+}
+
+
+/* responsive related*/
+@media only screen and (max-width: 460px) {
+    .nav-bar{
+flex-direction: column;
+justify-content: center;
+padding: 15px;
+    } 
 }
